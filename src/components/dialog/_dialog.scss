@@ -1,0 +1,32 @@
+// Default modal overlay transition.
+.fdv-overlay-enter-active,
+.fdv-overlay-leave-active {
+  transition: opacity 0.15s;
+}
+
+.fdv-overlay-enter,
+.fdv-overlay-leave-to {
+  opacity: 0;
+}
+
+// Default modal transition
+.fdv-modal-enter {
+  opacity: 0;
+}
+
+.fdv-modal-enter-to {
+  opacity: 1;
+}
+
+.fdv-modal-enter-active,
+.fdv-modal-leave-active {
+  opacity: 0;
+}
+
+.fdv-modal-leave {
+  opacity: 1;
+}
+
+.fdv-modal-leave-to {
+  opacity: 0;
+}
